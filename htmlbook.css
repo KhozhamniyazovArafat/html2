@@ -7,19 +7,100 @@ body {margin: 0}
 	align-items: center;
 	}
 .leftside {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}	
+.imghtml {
 	margin: 10px;
 	position: relative;
-	bottom: -22px;
+	bottom: -3px;
 }
 .linkhtml {
 	width: 80px;
 	height: 80px;
-	justify-content: center;
 }
 .puzzle {
-	left: 20px;
+	border: solid transparent;
+    height: 72px;
+    width: 44px;
+    justify-content: center;
+    display: flex;
+    background-color: #FFEFD5;
+}
+.S {
+	border: solid transparent;
+    height: 72px;
+    width: 44px;
+    justify-content: center;
+    display: flex;
+    background-color: #FFEFD5;
+}
+.insta {
+	border: solid transparent;
+    height: 72px;
+    width: 44px;
+    justify-content: center;
+    display: flex;
+    background-color: #FFEFD5;    
+}
+.calc {
+	border: solid transparent;
+    height: 72px;
+    width: 44px;
+    justify-content: center;
+    display: flex;
+    background-color: #FFEFD5;    
 }
 .imgpuzzle {
-	height: 40px;
-	width: 40px;
+	height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 551px;
+}
+.imgS {
+	height: 20px;
+    width: 20px;
+ 	position: absolute;
+    bottom: 551px;
+}
+.imgINSTA {
+	height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 551px;	
+}
+.imgCALC {
+	height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 551px;
+}
+.PuzzleP {
+	font-size: 7pt;
+    position: relative;
+    bottom: -50px;
+    font-weight: bold;
+}
+.SP {
+	font-size: 7pt;
+    position: relative;
+    bottom: -50px;
+    font-weight: bold;
+}
+.InstaP {
+	font-size: 7pt;
+    position: relative;
+    bottom: -50px;
+    font-weight: bold;
+}
+.CalcP {
+	font-size: 7pt;
+    position: relative;
+    bottom: -50px;
+    font-weight: bold;
+}
+.tchk {
+	display: flex;
+	justify-content: space-between;
 }
