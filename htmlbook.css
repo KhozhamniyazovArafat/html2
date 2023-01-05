@@ -1,0 +1,25 @@
+body {margin: 0}
+.backcolor {
+	background-color: #696969;
+	width: auto;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	}
+.leftside {
+	margin: 10px;
+	position: relative;
+	bottom: -22px;
+}
+.linkhtml {
+	width: 80px;
+	height: 80px;
+	justify-content: center;
+}
+.puzzle {
+	left: 20px;
+}
+.imgpuzzle {
+	height: 40px;
+	width: 40px;
+}
